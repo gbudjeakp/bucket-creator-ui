@@ -1,8 +1,8 @@
 # bucket-creator-app
 Simple GUI application for creating buckets on linode cloud.
 
-![homepage](https://github.com/gbudjeakp/bucket-creator-app/assets/61554248/4aa950b3-5d17-4de9-8931-9930aff760f3)
+![homepage](https://github.com/gbudjeakp/bucket-creator-ui/assets/61554248/4aa25679-0fc5-43eb-86da-6668f6b7487c)
 
-![viewpage](https://github.com/gbudjeakp/bucket-creator-app/assets/61554248/1dbf593a-d76e-4fb6-8203-723db4f884da)
+![viewpage](https://github.com/gbudjeakp/bucket-creator-ui/assets/61554248/fd40e08b-7caa-410f-a063-f33bf97a52c3)
 
-![createpage](https://github.com/gbudjeakp/bucket-creator-app/assets/61554248/e7e93bea-e116-47cc-bd6c-b900e725617e)
+![createpage](https://github.com/gbudjeakp/bucket-creator-ui/assets/61554248/6c77a45d-6940-4614-b0d9-a02f69aa89d0)
