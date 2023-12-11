@@ -1,56 +1,8 @@
-# cloud-file-uploader
+# bucket-creator-app
+Simple GUI application for creating buckets on linode cloud.
 
-Simple Bucket Creator App used to Demo Pipeline
+![homepage](https://github.com/gbudjeakp/bucket-creator-app/assets/61554248/4aa950b3-5d17-4de9-8931-9930aff760f3)
 
-## Prerequisites
+![viewpage](https://github.com/gbudjeakp/bucket-creator-app/assets/61554248/1dbf593a-d76e-4fb6-8203-723db4f884da)
 
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://cli.emberjs.com/release/)
-* [Google Chrome](https://google.com/chrome/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd cloud-file-uploader`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint`
-* `npm run lint:fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://cli.emberjs.com/release/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-# bucket-creator-ui
+![createpage](https://github.com/gbudjeakp/bucket-creator-app/assets/61554248/e7e93bea-e116-47cc-bd6c-b900e725617e)

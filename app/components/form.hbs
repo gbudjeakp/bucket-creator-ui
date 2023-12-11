@@ -1,0 +1,12 @@
+<div>
+  <form {{on "submit" this.createbucket}}>
+    <label for="bucketNameInput">Enter Bucket Name:</label>
+    <Input @type="text" @value={{this.bucketName}} id="bucketNameInput" />
+    <br />
+    <br />
+    <hr />
+    <br />
+    <button type="submit" class="button">Create Bucket</button>
+  </form>
+  <br />
+</div>

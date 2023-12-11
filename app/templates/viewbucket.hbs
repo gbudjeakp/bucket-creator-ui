@@ -1,0 +1,15 @@
+<Jumbo>
+  <h2>View Buckets Here</h2>
+  <p>
+   Below Are the number of existing buckets in the organization.
+   This has a list of all existing buckets. Click the button below 
+   to create a new bucket.
+  </p>
+ <div class="bucket">
+  <ul class="bucket">
+    {{#each @model as |list|}}
+      <li><List @list={{list}} /></li>
+    {{/each}}
+  </ul>
+</div>
+</Jumbo>
