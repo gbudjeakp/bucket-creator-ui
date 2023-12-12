@@ -7,11 +7,9 @@ pipeline {
         buildDiscarder(logRotator(numToKeepStr: '10'))
     }
     triggers {
-        githubPullRequest(
-            triggerPhrase: 'merge', 
-            onlyTriggerPhrase: true,
-            useGitHubHooks: true 
-        )
+        when{
+            expression { return params.current_status == "closed" && params.merged == true }
+        }
     }
     stages {
         stage('Test') {
