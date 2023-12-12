@@ -6,13 +6,12 @@ pipeline {
         timestamps()
         buildDiscarder(logRotator(numToKeepStr: '10'))
     }
-    triggers {
-        when{
-            expression { return params.current_status == "closed" && params.merged == true }
-        }
-    }
+
     stages {
         stage('Test') {
+                when{
+            expression { return params.current_status == "closed" && params.merged == true }
+        }
             steps {
                 echo "Testing Application.."
                 script {
@@ -23,6 +22,9 @@ pipeline {
             }
         }
         stage('Build') {
+                when{
+            expression { return params.current_status == "closed" && params.merged == true }
+        }
             steps {
                 echo "Building.."
                 script {
@@ -33,6 +35,9 @@ pipeline {
             }
         }
         stage('Deploy') {
+                when{
+            expression { return params.current_status == "closed" && params.merged == true }
+        }
             steps {
                 echo 'Deploying to docker....'
                 echo 'Deploy done'
