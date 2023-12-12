@@ -5,6 +5,16 @@ pipeline {
             }
       }
     stages {
+        stage('Test') {
+            steps {
+                echo "test.."
+                sh '''
+                 nmp install 
+                 npm ci 
+                 npm test
+                '''
+            }
+        }
         stage('Build') {
             steps {
                 echo "Building.."
@@ -13,19 +23,11 @@ pipeline {
                 '''
             }
         }
-        stage('Test') {
+        stage('Deploy') {
             steps {
-                echo "Testing.."
+                echo 'Deploy....'
                 sh '''
-                echo "doing test stuff.."
-                '''
-            }
-        }
-        stage('Deliver') {
-            steps {
-                echo 'Deliver....'
-                sh '''
-                echo "doing delivery stuff.."
+                echo "Deployed stuff.."
                 '''
             }
         }
