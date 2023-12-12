@@ -9,7 +9,8 @@ pipeline {
             steps {
                 echo "test.."
                 sh '''
-                 npm install 
+                 npm install
+                 npm chrome-launcher
                  npm ci 
                  npm test
                 '''
