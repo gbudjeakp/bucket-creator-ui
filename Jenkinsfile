@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo "test.."
                 sh '''
-                 nmp install 
+                 npm install 
                  npm ci 
                  npm test
                 '''
